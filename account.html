@@ -1,0 +1,395 @@
+﻿<!DOCTYPE html>
+<html lang="ru" data-textdirection="ltr" >
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" type="image/x-png" href="img/favicon.png">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">-->
+    <title>Containerum</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css?1234">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css?1234">
+    <link rel="stylesheet" href="css/style.css?1234">
+</head>
+<body>
+
+    <div class="wrapper ">
+
+        <header class="header ">
+            <div class="header-top ">
+                <div class="header-top-container container">
+                    <div class="header__logo">
+                        <a href="index.html" class=""><img src="img/logo.png" alt=""></a>
+                    </div>
+                    <ul class="header-top-menu nav">
+                        <li class="header-top-menu__li nav-item "><a href="" class="header-top-menu__link ">Namespaces</a>
+
+                        </li>
+                        <li class="header-top-menu__li nav-item"><a href="" class="header-top-menu__link ">Volumes</a></li>
+                        <li class="header-top-menu__li header-top-menu__li_last nav-item "><a href="" class="header-top-menu__link ">Support</a></li>
+                    </ul>
+
+                    <div class="header-top-admin-mode">
+                        <div class="header-top-admin-mode__label">Admin<br>mode</div>
+                        <div class="header-top-admin-mode__switcher "></div>
+                    </div>
+
+                    <div class="header-top-account">
+                        <div class="header-top-account__avatar"><img src="img/profile.png"></div>
+                        <div class="header-top-account__info">
+                            <div class="header-top-account__name dropdown">
+
+                                    <a href="#" class=" dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Natasha Romanova Natasha Romanova</a>
+                                    <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                                        <a class="dropdown-item" href="#">Dropdown item</a>
+                                        <a class="dropdown-item" href="#">Dropdown item</a>
+                                        <a class="dropdown-item" href="#">Dropdown item</a>
+                                    </ul>
+                            </div>
+                            <div class="header-top-account__deposit">12 $</div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </header>
+
+        <div class="content-block ">
+            <div class=" container no-back">
+               <div class="row double two-columns">
+                    <div class="col-md-3 col-lg-3 col-xl-2">
+                        <div class="content-block">
+                            <div class="content-block-container container no-back pl-0 pr-0 container-fluid">
+                                <ul class="account-menu nav nav-list">
+                                    <li>
+                                        <div class="nav-root-item">Account</div>
+                                        <ul class="sub-navbar">
+                                            <li class="nav-item"><a href="#profile" class="nav-link active">Profile</a></li>
+                                            <li class="nav-item"><a href="#password" class="nav-link ">Password</a></li>
+                                            <li class="nav-item"><a href="#tokens" class="nav-link ">Tokens</a></li>
+                                            <li class="nav-item"><a href="#cli" class="nav-link ">CLI</a></li>
+                                            <li class="nav-item"><a href="#company-account" class="nav-link ">Company account</a></li>
+                                            <li class="nav-item"><a href="#subscriptions" class="nav-link ">E-mail subscriptions</a></li>
+                                            <li class="nav-item"><a href="#delete-account" class="nav-link ">Delete Account</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <div class="nav-root-item">Billing</div>
+                                        <ul class="sub-navbar">
+                                            <li class="nav-item"><a href="" class="nav-link">Information</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Payment method</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Allert</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">History</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-lg-9 col-xl-10">
+                        <div class="content-block">
+                            <div class="content-block-container container container-fluid">
+                                <div class="block-item" id="profile">
+                                    <div class="block-item__title">Profile</div>
+                                    <form action="" class="" method="">
+                                        <div class="row">
+                                            <div class="col-md-2">
+                                                <div class="form-group pt-0">
+                                                    <label class="form-group__label-image" for="avatar"><img src="img/profile-big.png"></label>
+                                                    <input type="file" class="form-group__hidden-input" id="avatar" >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-group__input-text form-control" id="login">
+                                                    <label class="form-group__label" for="login">Login</label>
+                                                    <div class="form-group__helper"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-group__input-text form-control" id="email" >
+                                                    <label class="form-group__label" for="email">Email</label>
+                                                    <div class="form-group__helper"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="block-item" id="password">
+                                    <div class="block-item__title">Password</div>
+                                    <form action="" class="" method="">
+                                        <div class="row">
+                                            <div class="col-md-10">
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-group__input-text form-control" id="current-password" >
+                                                            <label class="form-group__label" for="current-password">Current password</label>
+                                                            <div class="form-group__helper"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="form-group has-error">
+                                                            <input type="text" class="form-group__input-text form-control" id="new-password" >
+                                                            <label class="form-group__label" for="new-password">New password</label>
+                                                            <div class="form-group__helper">Password must be 8 or more characters</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-group__input-text form-control" id="confirm-password">
+                                                            <label class="form-group__label" for="confirm-password">Confirm new password</label>
+                                                            <div class="form-group__helper"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <div class="form-group pt-0 text-right">
+                                                    <input type="submit" value="Save" class="button_blue btn btn-outline-primary save-password">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="block-item" id="tokens">
+                                    <div class="block-item__title">Tokens</div>
+                                    <form action="" class="" method="">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="light-text">Token provides another way to log into your private Namespace</div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="block-item__tokens col-md-12">
+                                                <table class="block-item__tokens-table content-block__table table">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Name 1</td>
+                                                            <td>#zdeschtotodolzchnobit</td>
+                                                            <td class=" dropdown no-arrow">
+                                                                <i class="content-block-table__more ion-more dropdown-toggle"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+
+                                                                <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                                                                    <a class="dropdown-item" href="#">Dropdown item</a>
+                                                                    <a class="dropdown-item" href="#">Dropdown item</a>
+                                                                    <a class="dropdown-item" href="#">Dropdown item</a>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Name 2</td>
+                                                            <td>#zdeschtotodolzchnobit</td>
+                                                            <td class=" dropdown no-arrow">
+                                                                <i class="content-block-table__more ion-more dropdown-toggle"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+
+                                                                <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                                                                    <a class="dropdown-item" href="#">Dropdown item</a>
+                                                                    <a class="dropdown-item" href="#">Dropdown item</a>
+                                                                    <a class="dropdown-item" href="#">Dropdown item</a>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Name 3</td>
+                                                            <td>#zdeschtotodolzchnobit</td>
+                                                            <td class=" dropdown no-arrow">
+                                                                <i class="content-block-table__more ion-more dropdown-toggle"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+
+                                                                <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                                                                    <a class="dropdown-item" href="#">Dropdown item</a>
+                                                                    <a class="dropdown-item" href="#">Dropdown item</a>
+                                                                    <a class="dropdown-item" href="#">Dropdown item</a>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Name 4</td>
+                                                            <td>#zdeschtotodolzchnobit</td>
+                                                            <td class=" dropdown no-arrow">
+                                                                <i class="content-block-table__more ion-more dropdown-toggle"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+
+                                                                <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                                                                    <a class="dropdown-item" href="#">Dropdown item</a>
+                                                                    <a class="dropdown-item" href="#">Dropdown item</a>
+                                                                    <a class="dropdown-item" href="#">Dropdown item</a>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Name 5</td>
+                                                            <td>#zdeschtotodolzchnobit</td>
+                                                            <td class=" dropdown no-arrow">
+                                                                <i class="content-block-table__more ion-more dropdown-toggle"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+
+                                                                <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                                                                    <a class="dropdown-item" href="#">Dropdown item</a>
+                                                                    <a class="dropdown-item" href="#">Dropdown item</a>
+                                                                    <a class="dropdown-item" href="#">Dropdown item</a>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Name 6</td>
+                                                            <td>#zdeschtotodolzchnobit</td>
+                                                            <td class=" dropdown no-arrow">
+                                                                <i class="content-block-table__more ion-more dropdown-toggle"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+
+                                                                <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                                                                    <a class="dropdown-item" href="#">Dropdown item</a>
+                                                                    <a class="dropdown-item" href="#">Dropdown item</a>
+                                                                    <a class="dropdown-item" href="#">Dropdown item</a>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="row ">
+                                            <div class="col-md-6">
+                                                <div class="form-group ">
+                                                    <input type="text" class="form-group__input-text form-control" id="new-name" >
+                                                    <label class="form-group__label" for="new-name"></label>
+                                                    <div class="form-group__helper"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group pt-0">
+                                                    <input type="submit" value="Add" class="button_blue btn btn-outline-primary ">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="block-item" id="cli">
+                                    <div class="block-item__title">CLI</div>
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <div class="light-text">You can download our CLI Tool for your operating system. For fast authentication use the token below.</div>
+                                            <div class="block-item__copy-string">chkit config --set-token sfkjarf;anvbdfjxbckshdbmmjghgtnkmnokjlll chkit config --set-token sfkjarf;anvbdfjxbckshdbmmjghgtnkmnokjlll</div>
+                                            <div class="normal-text">Copy and paste into installed CLI client</div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="block-item__sub-title">Download</div>
+                                            <a href class="block-item__download" download>
+                                                <span class="block-item__download-title">CLI for Windows</span>
+                                                <span class="block-item__download-note">Version 0.56 / 75 MB </span>
+                                                <span class="block-item__download-arrow"><img src="img/arrows.png" alt="Download CLI"></span>
+                                            </a>
+                                            <a href class="block-item__download block-item__download_alt">
+                                                <span class="block-item__download-title">or</span>
+                                                <span class="block-item__download-note">CLI for other platform</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block-item" id="company-account">
+                                    <div class="block-item__title">Company account</div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="light-text">Warning: this will totaly delete your Apps and Data</div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <form action="" class="" method="">
+                                                <div class="form-group pt-0">
+                                                    <input type="text" class="form-group__input-text form-control" id="company-name" >
+                                                    <label class="form-group__label" for="company-name">Company name</label>
+                                                    <div class="form-group__helper"></div>
+                                                </div>
+                                                <div class="form-group ">
+                                                    <input type="text" class="form-group__input-text form-control" id="tax-code" >
+                                                    <label class="form-group__label" for="tax-code">Tax code</label>
+                                                    <div class="form-group__helper"></div>
+                                                </div>
+                                                <div class="form-group pt-0">
+                                                    <input type="submit" value="Convert" class="button_blue btn btn-outline-primary ">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block-item" id="subscriptions">
+                                    <div class="block-item__title">E-mail subscriptions</div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="light-text">If you are not interested in receiving this content, please uncheck the box below to unsubscribe</div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <form action="" class="" method="">
+                                                <div class="form-group form-group-inline pt-0">
+                                                    <div class="row double-2 input-group">
+                                                        <div class="col-md-10">
+                                                            <input type="checkbox" class="form-group__hidden-input" id="system-notification" >
+                                                            <label class="form-group__label form-group__label__inline" for="system-notification">System e-mail notifications</label>
+                                                            <div class="form-group__helper form-group__helper__inline">You can not turn them off</div>
+                                                        </div>
+                                                        <div class="col-md-2">
+                                                            <div class="form-group__switcher"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group form-group-inline pt-0">
+                                                    <div class="row double-2 input-group">
+                                                        <div class="col-md-10">
+                                                            <input type="checkbox" class="form-group__hidden-input" id="newsletter-subscription" >
+                                                            <label class="form-group__label form-group__label__inline" for="newsletter-subscription">Our newsletter subscription</label>
+                                                            <div class="form-group__helper form-group__helper__inline">We will not spam you</div>
+                                                        </div>
+                                                        <div class="col-md-2">
+                                                            <div class="form-group__switcher"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group form-group-inline pt-0">
+                                                    <div class="row double-2 input-group">
+                                                        <div class="col-md-10">
+                                                            <input type="checkbox" class="form-group__hidden-input" id="funny-cat" checked>
+                                                            <label class="form-group__label form-group__label__inline" for="funny-cat">Funny cat video feed</label>
+                                                            <div class="form-group__helper form-group__helper__inline">You can not turn them off</div>
+                                                        </div>
+                                                        <div class="col-md-2">
+                                                            <div class="form-group__switcher form-group__switcher_on"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block-item" id="delete-account">
+                                    <div class="block-item__title">Delete Account</div>
+                                    <div class="light-text">This action will delete your Apps and Dat</div>
+                                    <div class="block-item__buttons"><a href="" class="button_red btn btn-outline-primary">Delete</a> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="clearfix"></div>
+               </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer ">
+        <div class="footer-wrapper">
+            <div class="footer-container container">
+                <div class="footer__logo">Created by Exon Lab</div>
+                <a href="" class="footer__download_cli">Download CLI <img src="img/arrows.png" alt="Download CLI"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.js" ></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

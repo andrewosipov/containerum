@@ -1,0 +1,349 @@
+﻿<!DOCTYPE html>
+<html lang="ru" data-textdirection="ltr" >
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" type="image/x-png" href="img/favicon.png">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">-->
+    <title>Containerum</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css?1234">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/css/select2.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css?1234">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css?1234">
+    <link rel="stylesheet" href="css/style.css?1234">
+</head>
+<body>
+
+    <div class="wrapper ">
+
+        <header class="header ">
+            <div class="header-top ">
+                <div class="header-top-container container">
+                    <div class="header__logo">
+                        <a href="index.html" class=""><img src="img/logo.png" alt=""></a>
+                    </div>
+                    <ul class="header-top-menu nav">
+                        <li class="header-top-menu__li nav-item "><a href="" class="header-top-menu__link ">Namespaces</a>
+
+                        </li>
+                        <li class="header-top-menu__li nav-item"><a href="" class="header-top-menu__link ">Volumes</a></li>
+                        <li class="header-top-menu__li nav-item"><a href="solution_s.html" class="header-top-menu__link active">Solutions</a></li>
+                        <li class="header-top-menu__li header-top-menu__li_last nav-item "><a href="" class="header-top-menu__link ">Support</a></li>
+                    </ul>
+
+                    <div class="header-top-admin-mode">
+                        <div class="header-top-admin-mode__label">Admin<br>mode</div>
+                        <div class="header-top-admin-mode__switcher "></div>
+                    </div>
+
+                    <div class="header-top-account">
+                        <div class="header-top-account__avatar"><img src="img/profile.png"></div>
+                        <div class="header-top-account__info">
+                            <div class="header-top-account__name dropdown">
+
+                                    <a href="#" class=" dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Natasha Romanova</a>
+                                    <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                                        <a class="dropdown-item" href="#">Dropdown item</a>
+                                        <a class="dropdown-item" href="#">Dropdown item</a>
+                                        <a class="dropdown-item" href="#">Dropdown item</a>
+                                    </ul>
+                            </div>
+                            <div class="header-top-account__deposit">12 $</div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+        </header>
+
+        <div class="content-block ">
+            <div class="content-block-container container no-back mt-0 no-padding">
+                <div class="content-block-content mt-0">
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="content-block-container-solution">
+                                <div class="content-block-volume-header">
+                                    <img class="volume-header-img" src="img/redis_logo.png" alt="redis">
+                                </div>
+                                <div class="content-block-volume-footer">
+                                    <div class="volume-footer-header">Persistent Volumes_Name</div>
+                                    <div class="volume-footer-info">
+                                        <span class="volume-footer-info-item">Version 13.02</span>
+                                        <span class="volume-footer-info-item">CPU: 1234</span>
+                                        <span class="volume-footer-info-item">RAM: 1234</span>
+                                    </div>
+
+                                    <div class="volume-footer-links-deploy">
+                                        <a class="footer-links-deploy-btn" data-toggle="modal" data-target="#redis" href="">deploy</a>
+                                    </div>
+                                    <div class="volume-footer-links-github">
+                                        <a class="footer-links-github-text" href="">Look on GitHub
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" viewBox="0 0 32 32" class="icon icons8-GitHub" ><g id="surface1"><path style=" fill-rule:evenodd;" d="M 16 4 C 9.371094 4 4 9.371094 4 16 C 4 21.300781 7.4375 25.800781 12.207031 27.386719 C 12.808594 27.496094 13.027344 27.128906 13.027344 26.808594 C 13.027344 26.523438 13.015625 25.769531 13.011719 24.769531 C 9.671875 25.492188 8.96875 23.160156 8.96875 23.160156 C 8.421875 21.773438 7.636719 21.402344 7.636719 21.402344 C 6.546875 20.660156 7.71875 20.675781 7.71875 20.675781 C 8.921875 20.761719 9.554688 21.910156 9.554688 21.910156 C 10.625 23.746094 12.363281 23.214844 13.046875 22.910156 C 13.15625 22.132813 13.46875 21.605469 13.808594 21.304688 C 11.144531 21.003906 8.34375 19.972656 8.34375 15.375 C 8.34375 14.0625 8.8125 12.992188 9.578125 12.152344 C 9.457031 11.851563 9.042969 10.628906 9.695313 8.976563 C 9.695313 8.976563 10.703125 8.65625 12.996094 10.207031 C 13.953125 9.941406 14.980469 9.808594 16 9.804688 C 17.019531 9.808594 18.046875 9.941406 19.003906 10.207031 C 21.296875 8.65625 22.300781 8.976563 22.300781 8.976563 C 22.957031 10.628906 22.546875 11.851563 22.421875 12.152344 C 23.191406 12.992188 23.652344 14.0625 23.652344 15.375 C 23.652344 19.984375 20.847656 20.996094 18.175781 21.296875 C 18.605469 21.664063 18.988281 22.398438 18.988281 23.515625 C 18.988281 25.121094 18.976563 26.414063 18.976563 26.808594 C 18.976563 27.128906 19.191406 27.503906 19.800781 27.386719 C 24.566406 25.796875 28 21.300781 28 16 C 28 9.371094 22.628906 4 16 4 Z "></path></g></svg>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="content-block-container-solution">
+                                <div class="content-block-volume-header">
+                                    <img class="volume-header-img" src="img/sql_elephant.png" alt="redis">
+                                </div>
+                                <div class="content-block-volume-footer">
+                                    <div class="volume-footer-header">Persistent Volumes_Name</div>
+                                    <div class="volume-footer-info">
+                                        <span class="volume-footer-info-item">Version 13.02</span>
+                                        <span class="volume-footer-info-item">CPU: 1234</span>
+                                        <span class="volume-footer-info-item">RAM: 1234</span>
+                                    </div>
+
+                                    <div class="volume-footer-links-deploy">
+                                        <a class="footer-links-deploy-btn" data-toggle="modal" data-target="#redis" href="">deploy</a>
+                                    </div>
+                                    <div class="volume-footer-links-github">
+                                        <a class="footer-links-github-text" href="">Look on GitHub
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" viewBox="0 0 32 32" class="icon icons8-GitHub" ><g id="surface1"><path style=" fill-rule:evenodd;" d="M 16 4 C 9.371094 4 4 9.371094 4 16 C 4 21.300781 7.4375 25.800781 12.207031 27.386719 C 12.808594 27.496094 13.027344 27.128906 13.027344 26.808594 C 13.027344 26.523438 13.015625 25.769531 13.011719 24.769531 C 9.671875 25.492188 8.96875 23.160156 8.96875 23.160156 C 8.421875 21.773438 7.636719 21.402344 7.636719 21.402344 C 6.546875 20.660156 7.71875 20.675781 7.71875 20.675781 C 8.921875 20.761719 9.554688 21.910156 9.554688 21.910156 C 10.625 23.746094 12.363281 23.214844 13.046875 22.910156 C 13.15625 22.132813 13.46875 21.605469 13.808594 21.304688 C 11.144531 21.003906 8.34375 19.972656 8.34375 15.375 C 8.34375 14.0625 8.8125 12.992188 9.578125 12.152344 C 9.457031 11.851563 9.042969 10.628906 9.695313 8.976563 C 9.695313 8.976563 10.703125 8.65625 12.996094 10.207031 C 13.953125 9.941406 14.980469 9.808594 16 9.804688 C 17.019531 9.808594 18.046875 9.941406 19.003906 10.207031 C 21.296875 8.65625 22.300781 8.976563 22.300781 8.976563 C 22.957031 10.628906 22.546875 11.851563 22.421875 12.152344 C 23.191406 12.992188 23.652344 14.0625 23.652344 15.375 C 23.652344 19.984375 20.847656 20.996094 18.175781 21.296875 C 18.605469 21.664063 18.988281 22.398438 18.988281 23.515625 C 18.988281 25.121094 18.976563 26.414063 18.976563 26.808594 C 18.976563 27.128906 19.191406 27.503906 19.800781 27.386719 C 24.566406 25.796875 28 21.300781 28 16 C 28 9.371094 22.628906 4 16 4 Z "></path></g></svg>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="content-block-container-solution">
+                                <div class="content-block-volume-header">
+                                    <img class="volume-header-img" src="img/mantis_logo.png" alt="redis">
+                                </div>
+                                <div class="content-block-volume-footer">
+                                    <div class="volume-footer-header">Persistent Volumes_Name</div>
+                                    <div class="volume-footer-info">
+                                        <span class="volume-footer-info-item">Version 13.02</span>
+                                        <span class="volume-footer-info-item">CPU: 1234</span>
+                                        <span class="volume-footer-info-item">RAM: 1234</span>
+                                    </div>
+
+                                    <div class="volume-footer-links-deploy">
+                                        <a class="footer-links-deploy-btn" data-toggle="modal" data-target="#redis" href="">deploy</a>
+                                    </div>
+                                    <div class="volume-footer-links-github">
+                                        <a class="footer-links-github-text" href="">Look on GitHub
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" viewBox="0 0 32 32" class="icon icons8-GitHub" ><g id="surface1"><path style=" fill-rule:evenodd;" d="M 16 4 C 9.371094 4 4 9.371094 4 16 C 4 21.300781 7.4375 25.800781 12.207031 27.386719 C 12.808594 27.496094 13.027344 27.128906 13.027344 26.808594 C 13.027344 26.523438 13.015625 25.769531 13.011719 24.769531 C 9.671875 25.492188 8.96875 23.160156 8.96875 23.160156 C 8.421875 21.773438 7.636719 21.402344 7.636719 21.402344 C 6.546875 20.660156 7.71875 20.675781 7.71875 20.675781 C 8.921875 20.761719 9.554688 21.910156 9.554688 21.910156 C 10.625 23.746094 12.363281 23.214844 13.046875 22.910156 C 13.15625 22.132813 13.46875 21.605469 13.808594 21.304688 C 11.144531 21.003906 8.34375 19.972656 8.34375 15.375 C 8.34375 14.0625 8.8125 12.992188 9.578125 12.152344 C 9.457031 11.851563 9.042969 10.628906 9.695313 8.976563 C 9.695313 8.976563 10.703125 8.65625 12.996094 10.207031 C 13.953125 9.941406 14.980469 9.808594 16 9.804688 C 17.019531 9.808594 18.046875 9.941406 19.003906 10.207031 C 21.296875 8.65625 22.300781 8.976563 22.300781 8.976563 C 22.957031 10.628906 22.546875 11.851563 22.421875 12.152344 C 23.191406 12.992188 23.652344 14.0625 23.652344 15.375 C 23.652344 19.984375 20.847656 20.996094 18.175781 21.296875 C 18.605469 21.664063 18.988281 22.398438 18.988281 23.515625 C 18.988281 25.121094 18.976563 26.414063 18.976563 26.808594 C 18.976563 27.128906 19.191406 27.503906 19.800781 27.386719 C 24.566406 25.796875 28 21.300781 28 16 C 28 9.371094 22.628906 4 16 4 Z "></path></g></svg>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="content-block-container-solution">
+                                <div class="content-block-volume-header">
+                                    <img class="volume-header-img" src="img/nginx-logo.png" alt="redis">
+                                </div>
+                                <div class="content-block-volume-footer">
+                                    <div class="volume-footer-header">Persistent Volumes_Name</div>
+                                    <div class="volume-footer-info">
+                                        <span class="volume-footer-info-item">Version 13.02</span>
+                                        <span class="volume-footer-info-item">CPU: 1234</span>
+                                        <span class="volume-footer-info-item">RAM: 1234</span>
+                                    </div>
+
+                                    <div class="volume-footer-links-deploy">
+                                        <a class="footer-links-deploy-btn" data-toggle="modal" data-target="#redis" href="">deploy</a>
+                                    </div>
+                                    <div class="volume-footer-links-github">
+                                        <a class="footer-links-github-text" href="">Look on GitHub
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" viewBox="0 0 32 32" class="icon icons8-GitHub" ><g id="surface1"><path style=" fill-rule:evenodd;" d="M 16 4 C 9.371094 4 4 9.371094 4 16 C 4 21.300781 7.4375 25.800781 12.207031 27.386719 C 12.808594 27.496094 13.027344 27.128906 13.027344 26.808594 C 13.027344 26.523438 13.015625 25.769531 13.011719 24.769531 C 9.671875 25.492188 8.96875 23.160156 8.96875 23.160156 C 8.421875 21.773438 7.636719 21.402344 7.636719 21.402344 C 6.546875 20.660156 7.71875 20.675781 7.71875 20.675781 C 8.921875 20.761719 9.554688 21.910156 9.554688 21.910156 C 10.625 23.746094 12.363281 23.214844 13.046875 22.910156 C 13.15625 22.132813 13.46875 21.605469 13.808594 21.304688 C 11.144531 21.003906 8.34375 19.972656 8.34375 15.375 C 8.34375 14.0625 8.8125 12.992188 9.578125 12.152344 C 9.457031 11.851563 9.042969 10.628906 9.695313 8.976563 C 9.695313 8.976563 10.703125 8.65625 12.996094 10.207031 C 13.953125 9.941406 14.980469 9.808594 16 9.804688 C 17.019531 9.808594 18.046875 9.941406 19.003906 10.207031 C 21.296875 8.65625 22.300781 8.976563 22.300781 8.976563 C 22.957031 10.628906 22.546875 11.851563 22.421875 12.152344 C 23.191406 12.992188 23.652344 14.0625 23.652344 15.375 C 23.652344 19.984375 20.847656 20.996094 18.175781 21.296875 C 18.605469 21.664063 18.988281 22.398438 18.988281 23.515625 C 18.988281 25.121094 18.976563 26.414063 18.976563 26.808594 C 18.976563 27.128906 19.191406 27.503906 19.800781 27.386719 C 24.566406 25.796875 28 21.300781 28 16 C 28 9.371094 22.628906 4 16 4 Z "></path></g></svg>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="content-block-container-solution">
+                                <div class="content-block-volume-header">
+                                    <img class="volume-header-img" src="img/redis_logo.png" alt="redis">
+                                </div>
+                                <div class="content-block-volume-footer">
+                                    <div class="volume-footer-header">Persistent Volumes_Name</div>
+                                    <div class="volume-footer-info">
+                                        <span class="volume-footer-info-item">Version 13.02</span>
+                                        <span class="volume-footer-info-item">CPU: 1234</span>
+                                        <span class="volume-footer-info-item">RAM: 1234</span>
+                                    </div>
+
+                                    <div class="volume-footer-links-deploy">
+                                        <a class="footer-links-deploy-btn" data-toggle="modal" data-target="#redis" href="">deploy</a>
+                                    </div>
+                                    <div class="volume-footer-links-github">
+                                        <a class="footer-links-github-text" href="">Look on GitHub
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" viewBox="0 0 32 32" class="icon icons8-GitHub" ><g id="surface1"><path style=" fill-rule:evenodd;" d="M 16 4 C 9.371094 4 4 9.371094 4 16 C 4 21.300781 7.4375 25.800781 12.207031 27.386719 C 12.808594 27.496094 13.027344 27.128906 13.027344 26.808594 C 13.027344 26.523438 13.015625 25.769531 13.011719 24.769531 C 9.671875 25.492188 8.96875 23.160156 8.96875 23.160156 C 8.421875 21.773438 7.636719 21.402344 7.636719 21.402344 C 6.546875 20.660156 7.71875 20.675781 7.71875 20.675781 C 8.921875 20.761719 9.554688 21.910156 9.554688 21.910156 C 10.625 23.746094 12.363281 23.214844 13.046875 22.910156 C 13.15625 22.132813 13.46875 21.605469 13.808594 21.304688 C 11.144531 21.003906 8.34375 19.972656 8.34375 15.375 C 8.34375 14.0625 8.8125 12.992188 9.578125 12.152344 C 9.457031 11.851563 9.042969 10.628906 9.695313 8.976563 C 9.695313 8.976563 10.703125 8.65625 12.996094 10.207031 C 13.953125 9.941406 14.980469 9.808594 16 9.804688 C 17.019531 9.808594 18.046875 9.941406 19.003906 10.207031 C 21.296875 8.65625 22.300781 8.976563 22.300781 8.976563 C 22.957031 10.628906 22.546875 11.851563 22.421875 12.152344 C 23.191406 12.992188 23.652344 14.0625 23.652344 15.375 C 23.652344 19.984375 20.847656 20.996094 18.175781 21.296875 C 18.605469 21.664063 18.988281 22.398438 18.988281 23.515625 C 18.988281 25.121094 18.976563 26.414063 18.976563 26.808594 C 18.976563 27.128906 19.191406 27.503906 19.800781 27.386719 C 24.566406 25.796875 28 21.300781 28 16 C 28 9.371094 22.628906 4 16 4 Z "></path></g></svg>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="content-block-container-solution">
+                                <div class="content-block-volume-header">
+                                    <img class="volume-header-img" src="img/redis_logo.png" alt="redis">
+                                </div>
+                                <div class="content-block-volume-footer">
+                                    <div class="volume-footer-header">Persistent Volumes_Name</div>
+                                    <div class="volume-footer-info">
+                                        <span class="volume-footer-info-item">Version 13.02</span>
+                                        <span class="volume-footer-info-item">CPU: 1234</span>
+                                        <span class="volume-footer-info-item">RAM: 1234</span>
+                                    </div>
+
+                                    <div class="volume-footer-links-deploy">
+                                        <a class="footer-links-deploy-btn" data-toggle="modal" data-target="#redis" href="">deploy</a>
+                                    </div>
+                                    <div class="volume-footer-links-github">
+                                        <a class="footer-links-github-text" href="">Look on GitHub
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" viewBox="0 0 32 32" class="icon icons8-GitHub" ><g id="surface1"><path style=" fill-rule:evenodd;" d="M 16 4 C 9.371094 4 4 9.371094 4 16 C 4 21.300781 7.4375 25.800781 12.207031 27.386719 C 12.808594 27.496094 13.027344 27.128906 13.027344 26.808594 C 13.027344 26.523438 13.015625 25.769531 13.011719 24.769531 C 9.671875 25.492188 8.96875 23.160156 8.96875 23.160156 C 8.421875 21.773438 7.636719 21.402344 7.636719 21.402344 C 6.546875 20.660156 7.71875 20.675781 7.71875 20.675781 C 8.921875 20.761719 9.554688 21.910156 9.554688 21.910156 C 10.625 23.746094 12.363281 23.214844 13.046875 22.910156 C 13.15625 22.132813 13.46875 21.605469 13.808594 21.304688 C 11.144531 21.003906 8.34375 19.972656 8.34375 15.375 C 8.34375 14.0625 8.8125 12.992188 9.578125 12.152344 C 9.457031 11.851563 9.042969 10.628906 9.695313 8.976563 C 9.695313 8.976563 10.703125 8.65625 12.996094 10.207031 C 13.953125 9.941406 14.980469 9.808594 16 9.804688 C 17.019531 9.808594 18.046875 9.941406 19.003906 10.207031 C 21.296875 8.65625 22.300781 8.976563 22.300781 8.976563 C 22.957031 10.628906 22.546875 11.851563 22.421875 12.152344 C 23.191406 12.992188 23.652344 14.0625 23.652344 15.375 C 23.652344 19.984375 20.847656 20.996094 18.175781 21.296875 C 18.605469 21.664063 18.988281 22.398438 18.988281 23.515625 C 18.988281 25.121094 18.976563 26.414063 18.976563 26.808594 C 18.976563 27.128906 19.191406 27.503906 19.800781 27.386719 C 24.566406 25.796875 28 21.300781 28 16 C 28 9.371094 22.628906 4 16 4 Z "></path></g></svg>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="content-block-container-solution">
+                                <div class="content-block-volume-header">
+                                    <img class="volume-header-img" src="img/redis_logo.png" alt="redis">
+                                </div>
+                                <div class="content-block-volume-footer">
+                                    <div class="volume-footer-header">Persistent Volumes_Name</div>
+                                    <div class="volume-footer-info">
+                                        <span class="volume-footer-info-item">Version 13.02</span>
+                                        <span class="volume-footer-info-item">CPU: 1234</span>
+                                        <span class="volume-footer-info-item">RAM: 1234</span>
+                                    </div>
+
+                                    <div class="volume-footer-links-deploy">
+                                        <a class="footer-links-deploy-btn" data-toggle="modal" data-target="#redis" href="">deploy</a>
+                                    </div>
+                                    <div class="volume-footer-links-github">
+                                        <a class="footer-links-github-text" href="">Look on GitHub
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" viewBox="0 0 32 32" class="icon icons8-GitHub" ><g id="surface1"><path style=" fill-rule:evenodd;" d="M 16 4 C 9.371094 4 4 9.371094 4 16 C 4 21.300781 7.4375 25.800781 12.207031 27.386719 C 12.808594 27.496094 13.027344 27.128906 13.027344 26.808594 C 13.027344 26.523438 13.015625 25.769531 13.011719 24.769531 C 9.671875 25.492188 8.96875 23.160156 8.96875 23.160156 C 8.421875 21.773438 7.636719 21.402344 7.636719 21.402344 C 6.546875 20.660156 7.71875 20.675781 7.71875 20.675781 C 8.921875 20.761719 9.554688 21.910156 9.554688 21.910156 C 10.625 23.746094 12.363281 23.214844 13.046875 22.910156 C 13.15625 22.132813 13.46875 21.605469 13.808594 21.304688 C 11.144531 21.003906 8.34375 19.972656 8.34375 15.375 C 8.34375 14.0625 8.8125 12.992188 9.578125 12.152344 C 9.457031 11.851563 9.042969 10.628906 9.695313 8.976563 C 9.695313 8.976563 10.703125 8.65625 12.996094 10.207031 C 13.953125 9.941406 14.980469 9.808594 16 9.804688 C 17.019531 9.808594 18.046875 9.941406 19.003906 10.207031 C 21.296875 8.65625 22.300781 8.976563 22.300781 8.976563 C 22.957031 10.628906 22.546875 11.851563 22.421875 12.152344 C 23.191406 12.992188 23.652344 14.0625 23.652344 15.375 C 23.652344 19.984375 20.847656 20.996094 18.175781 21.296875 C 18.605469 21.664063 18.988281 22.398438 18.988281 23.515625 C 18.988281 25.121094 18.976563 26.414063 18.976563 26.808594 C 18.976563 27.128906 19.191406 27.503906 19.800781 27.386719 C 24.566406 25.796875 28 21.300781 28 16 C 28 9.371094 22.628906 4 16 4 Z "></path></g></svg>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="content-block-container-solution">
+                                <div class="content-block-volume-header">
+                                    <img class="volume-header-img" src="img/redis_logo.png" alt="redis">
+                                </div>
+                                <div class="content-block-volume-footer">
+                                    <div class="volume-footer-header">Persistent Volumes_Name</div>
+                                    <div class="volume-footer-info">
+                                        <span class="volume-footer-info-item">Version 13.02</span>
+                                        <span class="volume-footer-info-item">CPU: 1234</span>
+                                        <span class="volume-footer-info-item">RAM: 1234</span>
+                                    </div>
+
+                                    <div class="volume-footer-links-deploy">
+                                        <a class="footer-links-deploy-btn" data-toggle="modal" data-target="#redis" href="">deploy</a>
+                                    </div>
+                                    <div class="volume-footer-links-github">
+                                        <a class="footer-links-github-text" href="">Look on GitHub
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" viewBox="0 0 32 32" class="icon icons8-GitHub" ><g id="surface1"><path style=" fill-rule:evenodd;" d="M 16 4 C 9.371094 4 4 9.371094 4 16 C 4 21.300781 7.4375 25.800781 12.207031 27.386719 C 12.808594 27.496094 13.027344 27.128906 13.027344 26.808594 C 13.027344 26.523438 13.015625 25.769531 13.011719 24.769531 C 9.671875 25.492188 8.96875 23.160156 8.96875 23.160156 C 8.421875 21.773438 7.636719 21.402344 7.636719 21.402344 C 6.546875 20.660156 7.71875 20.675781 7.71875 20.675781 C 8.921875 20.761719 9.554688 21.910156 9.554688 21.910156 C 10.625 23.746094 12.363281 23.214844 13.046875 22.910156 C 13.15625 22.132813 13.46875 21.605469 13.808594 21.304688 C 11.144531 21.003906 8.34375 19.972656 8.34375 15.375 C 8.34375 14.0625 8.8125 12.992188 9.578125 12.152344 C 9.457031 11.851563 9.042969 10.628906 9.695313 8.976563 C 9.695313 8.976563 10.703125 8.65625 12.996094 10.207031 C 13.953125 9.941406 14.980469 9.808594 16 9.804688 C 17.019531 9.808594 18.046875 9.941406 19.003906 10.207031 C 21.296875 8.65625 22.300781 8.976563 22.300781 8.976563 C 22.957031 10.628906 22.546875 11.851563 22.421875 12.152344 C 23.191406 12.992188 23.652344 14.0625 23.652344 15.375 C 23.652344 19.984375 20.847656 20.996094 18.175781 21.296875 C 18.605469 21.664063 18.988281 22.398438 18.988281 23.515625 C 18.988281 25.121094 18.976563 26.414063 18.976563 26.808594 C 18.976563 27.128906 19.191406 27.503906 19.800781 27.386719 C 24.566406 25.796875 28 21.300781 28 16 C 28 9.371094 22.628906 4 16 4 Z "></path></g></svg>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="content-block-container-solution">
+                                <div class="content-block-volume-header">
+                                    <img class="volume-header-img" src="img/redis_logo.png" alt="redis">
+                                </div>
+                                <div class="content-block-volume-footer">
+                                    <div class="volume-footer-header">Persistent Volumes_Name</div>
+                                    <div class="volume-footer-info">
+                                        <span class="volume-footer-info-item">Version 13.02</span>
+                                        <span class="volume-footer-info-item">CPU: 1234</span>
+                                        <span class="volume-footer-info-item">RAM: 1234</span>
+                                    </div>
+
+                                    <div class="volume-footer-links-deploy">
+                                        <a class="footer-links-deploy-btn" data-toggle="modal" data-target="#redis" href="">deploy</a>
+                                    </div>
+                                    <div class="volume-footer-links-github">
+                                        <a class="footer-links-github-text" href="">Look on GitHub
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" viewBox="0 0 32 32" class="icon icons8-GitHub" ><g id="surface1"><path style=" fill-rule:evenodd;" d="M 16 4 C 9.371094 4 4 9.371094 4 16 C 4 21.300781 7.4375 25.800781 12.207031 27.386719 C 12.808594 27.496094 13.027344 27.128906 13.027344 26.808594 C 13.027344 26.523438 13.015625 25.769531 13.011719 24.769531 C 9.671875 25.492188 8.96875 23.160156 8.96875 23.160156 C 8.421875 21.773438 7.636719 21.402344 7.636719 21.402344 C 6.546875 20.660156 7.71875 20.675781 7.71875 20.675781 C 8.921875 20.761719 9.554688 21.910156 9.554688 21.910156 C 10.625 23.746094 12.363281 23.214844 13.046875 22.910156 C 13.15625 22.132813 13.46875 21.605469 13.808594 21.304688 C 11.144531 21.003906 8.34375 19.972656 8.34375 15.375 C 8.34375 14.0625 8.8125 12.992188 9.578125 12.152344 C 9.457031 11.851563 9.042969 10.628906 9.695313 8.976563 C 9.695313 8.976563 10.703125 8.65625 12.996094 10.207031 C 13.953125 9.941406 14.980469 9.808594 16 9.804688 C 17.019531 9.808594 18.046875 9.941406 19.003906 10.207031 C 21.296875 8.65625 22.300781 8.976563 22.300781 8.976563 C 22.957031 10.628906 22.546875 11.851563 22.421875 12.152344 C 23.191406 12.992188 23.652344 14.0625 23.652344 15.375 C 23.652344 19.984375 20.847656 20.996094 18.175781 21.296875 C 18.605469 21.664063 18.988281 22.398438 18.988281 23.515625 C 18.988281 25.121094 18.976563 26.414063 18.976563 26.808594 C 18.976563 27.128906 19.191406 27.503906 19.800781 27.386719 C 24.566406 25.796875 28 21.300781 28 16 C 28 9.371094 22.628906 4 16 4 Z "></path></g></svg>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer ">
+        <div class="footer-wrapper">
+            <div class="footer-container container">
+                <div class="footer__logo">Created by Exon Lab</div>
+                <a href="" class="footer__download_cli">Download CLI <img src="img/arrows.png" alt="Download CLI"></a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="redis" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="modal-redis-icon" src="img/redis_logo.png" alt="redis">
+                    <h4 class="modal-title" id="modalLabel">Redis</h4>
+                    <span class="modal-redis-text" >Deploy Solution on which Namespace:</span>
+                    <select class="custom-select">
+                        <option selected>NameSpaceNameMANe</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn modal-footer-solution-cancel" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn modal-footer-solution-select">Select</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js?1234" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js?1234" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/js/select2.min.js" ></script>
+    <script src="js/bootstrap.min.js?1234"></script>
+    <script src="js/script.js?1234"></script>
+</body>
+</html>
